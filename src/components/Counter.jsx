@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 function Counter() {
     const [array, setArray] = useState([]);
+    useEffect(() => console.log("Counter has updated"), [array])
     return (
         <div>
             <h1>
