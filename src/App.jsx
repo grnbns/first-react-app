@@ -4,7 +4,11 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 
+import Counter from './components/Counter.jsx';
+
 function App() {
+
+  return <Counter />;
   const [count, setCount] = useState(0)
 
   return (
@@ -16,7 +20,7 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Hello World</h1>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
