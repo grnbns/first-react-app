@@ -16,10 +16,10 @@ import Counter from './components/Counter.jsx';
 function App() {
   return (
     <Router>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/users/:username" element={<Users />}/>
+        <Route path="/users/:id" element={<Users />}/>
       </Routes>
       <div>
 
